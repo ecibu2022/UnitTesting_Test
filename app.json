@@ -1,0 +1,51 @@
+{
+  "id": "86f753b5-d547-47ee-a4dc-a6b7be46c46d",
+  "name": "UnitTesting_Test",
+  "publisher": "Michael",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "71c92b63-fc3d-4e37-be86-52c846ba0a6f",
+      "name": "UnitTesting",
+      "publisher": "Michael",
+      "version": "1.0.0.0"
+    },
+    {
+        "id":  "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+        "name":  "Library Assert",
+        "publisher":  "Microsoft",
+        "version":  "19.0.0.0"
+    },
+    {
+        "id":  "5d86850b-0d76-4eca-bd7b-951ad998e997",
+        "name":  "Tests-TestLibraries",
+        "publisher":  "Microsoft",
+        "version":  "19.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
