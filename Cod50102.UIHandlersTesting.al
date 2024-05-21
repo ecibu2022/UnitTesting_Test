@@ -10,11 +10,11 @@ codeunit 50102 "UI Handlers Testing"
     TheConfirmReply: Boolean;
     TheConfirmMsg: Label 'Are you selecting True or False';
     begin
-        // [GIVEN] Verify if 
+        // [GIVEN] Verify if
         TheConfirmReply:=Confirm(TheConfirmMsg, false);
-        // [WHEN] When Some Action 
+        // [WHEN] When Some Action
         Assert.IsTrue(TheConfirmReply, 'The reply is supposed to be True');
-        // [THEN] Then Expected Output 
+        // [THEN] Then Expected Output
     end;
 
     [ConfirmHandler]
